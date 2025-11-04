@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Login() {
   return (
     <form className="flex flex-col items-center bg-white p-10 rounded-lg shadow-md max-w-md mx-auto text-gray-900">
@@ -34,6 +36,9 @@ export default function Login() {
           Iniciar Sesión
         </button>
       </fieldset>
+      <Link href="/register" className="text-blue-500 hover:underline">
+        ¿No tienes una cuenta? Regístrate
+      </Link>
     </form>
   );
 }

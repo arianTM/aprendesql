@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-export default function Login() {
+export default function Register() {
   return (
     <form className="flex flex-col items-center bg-white p-10 rounded-lg shadow-md max-w-md mx-auto text-gray-900">
       <h1 className="text-4xl font-bold mt-5 mb-7 text-center">
-        Inicio de Sesión
+        Registro de Usuario
       </h1>
       <fieldset className="mb-5">
         <label htmlFor="username" className="text-gray-900">
@@ -29,15 +29,25 @@ export default function Login() {
         />
       </fieldset>
       <fieldset className="mb-5">
+        <label htmlFor="confirm-password">Confirmar Contraseña:</label>
+        <input
+          type="password"
+          id="confirm-password"
+          name="confirm-password"
+          required
+          className="block focus:outline-none border border-gray-300 rounded px-3 py-2 w-full"
+        />
+      </fieldset>
+      <fieldset className="mb-5">
         <button
           type="submit"
           className="w-full bg-blue-500 text-white py-2 px-4 mt-5 rounded hover:bg-blue-600 cursor-pointer"
         >
-          Iniciar Sesión
+          Registrar
         </button>
       </fieldset>
-      <Link href="/register" className="text-blue-500 hover:underline">
-        ¿No tienes una cuenta? Regístrate
+      <Link href="/login" className="text-blue-500 hover:underline">
+        ¿Ya tienes una cuenta? Inicia Sesión
       </Link>
     </form>
   );

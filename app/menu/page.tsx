@@ -1,31 +1,16 @@
 import Link from "next/link";
+import Navbar from "../_components/navbar";
 
 export default function Menu() {
   return (
     <div className="flex h-full w-full">
-      <nav className="flex justify-center items-center h-full w-min p-16 bg-blue-900">
-        <ul className="flex flex-col justify-around h-full">
-          <li>
-            <Link href="/menu">Menú</Link>
-          </li>
-          <li>
-            <Link href="/courses">Cursos</Link>
-          </li>
-          <li>
-            <Link href="/tests">Pruebas</Link>
-          </li>
-          <li>
-            <Link href="/chatbot">Chatbot</Link>
-          </li>
-          <li>
-            <Link href="/achievements">Logros</Link>
-          </li>
-        </ul>
-      </nav>
+      <Navbar />
       <main className="flex flex-col justify-center items-center h-full w-full">
-        <div className="h-[50%]">
-          <h1 className="text-4xl font-bold text-center">Bienvenido, Arian</h1>
-          <div className="flex gap-20 justify-center items-center h-full w-full">
+        <div>
+          <h1 className="text-4xl mb-20 font-bold text-center">
+            Bienvenido, Arian
+          </h1>
+          <div className="flex gap-20 flex-wrap justify-center items-center h-full w-full">
             <div className="flex w-96 h-50">
               <div className="flex flex-col gap-5 justify-center items-center border-white border-2 rounded-lg p-8">
                 <p className="text-center">

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Login() {
   return (
-    <form className="flex flex-col items-center bg-white p-10 rounded-lg shadow-md max-w-md mx-auto text-gray-900">
+    <form className="flex flex-col items-center bg-white p-14 rounded-lg shadow-md max-w-md mx-auto text-gray-900">
       <h1 className="text-4xl font-bold mt-5 mb-7 text-center">
         Inicio de Sesión
       </h1>

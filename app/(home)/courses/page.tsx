@@ -3,37 +3,37 @@ import Link from "next/link";
 export default function Courses() {
   const courses = [
     {
-      id: 1,
+      id: "que-es-sql",
       title: "Qué es SQL",
       description: "La importancia de SQL para el mundo.",
     },
     {
-      id: 2,
+      id: "sistemas-de-gestion-sql",
       title: "Sistemas de Gestion SQL",
       description: "Conoce PostgreSQL, MySQL, SQLite,...",
     },
     {
-      id: 3,
+      id: "consultas-basicas-sql",
       title: "Consultas Básicas en SQL",
       description: "Realiza tus primeras consultas en SQL.",
     },
     {
-      id: 4,
+      id: "consultas-basicas-sql-2",
       title: "Consultas Básicas en SQL",
       description: "Realiza tus primeras consultas en SQL.",
     },
     {
-      id: 5,
+      id: "consultas-basicas-sql-3",
       title: "Consultas Básicas en SQL",
       description: "Realiza tus primeras consultas en SQL.",
     },
     {
-      id: 6,
+      id: "consultas-basicas-sql-4",
       title: "Consultas Básicas en SQL",
       description: "Realiza tus primeras consultas en SQL.",
     },
     {
-      id: 7,
+      id: "consultas-basicas-sql-5",
       title: "Consultas Básicas en SQL",
       description: "Realiza tus primeras consultas en SQL.",
     },
@@ -50,7 +50,7 @@ export default function Courses() {
             key={course.id}
             className="block border-2 min-h-[280px] min-w-[300px] max-w-[30%]"
           >
-            <Link href="/">
+            <Link href={`/courses/${course.id}`} className="block">
               <img
                 src={`https://cdn.pixabay.com/index/2025/01/30/05-35-40-326_1440x550.png`}
                 alt={course.title}

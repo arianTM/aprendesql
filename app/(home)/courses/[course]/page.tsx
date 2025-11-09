@@ -15,7 +15,7 @@ export default async function CoursePage({
       />
       <div className="flex gap-30">
         <div className="w-2/3 flex flex-col gap-5">
-          <h1 className="block text-4xl font-bold">Qué es SQL</h1>
+          <h1 className="block text-4xl font-bold">Introducción a SQL</h1>
           <p className="text-justify">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
             vel sint corrupti sit a ducimus minima quidem doloribus saepe
@@ -34,7 +34,7 @@ export default async function CoursePage({
           </Link>
         </div>
         <ul className="w-1/3 flex flex-col gap-5">
-          <li>Lección 1: Introducción a SQL</li>
+          <li>Lección 1: Qué es SQL</li>
           <li>Lección 2: Historia de SQL</li>
           <li>Lección 3: Importancia en el mundo real</li>
           <li>Lección 4: Bases de datos</li>

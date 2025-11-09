@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function Courses() {
   const courses = [
     {
-      id: "que-es-sql",
-      title: "Qué es SQL",
-      description: "La importancia de SQL para el mundo.",
+      id: "introduccion-a-sql",
+      title: "Introducción a SQL",
+      description: "Qué es SQL y por qué es importante.",
     },
     {
       id: "sistemas-de-gestion-sql",

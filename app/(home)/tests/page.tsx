@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function TestsPage() {
   return (
     <>
@@ -6,52 +8,64 @@ export default function TestsPage() {
         <div className="bg-blue-950 flex items-center justify-between p-5 rounded">
           <p>Introduccion a SQL</p>
           <div className="flex gap-5">
-            <button
-              type="button"
-              className="bg-blue-900 text-white py-2 px-4 rounded cursor-pointer hover:bg-blue-700"
-            >
-              Iniciar prueba
-            </button>
-            <button
-              type="button"
-              className="bg-blue-900 text-white py-2 px-4 rounded cursor-pointer hover:bg-blue-700"
-            >
-              Configuracion
-            </button>
+            <Link href="/tests/perform/introduccion-a-sql">
+              <button
+                type="button"
+                className="bg-blue-900 text-white py-2 px-4 rounded cursor-pointer hover:bg-blue-700"
+              >
+                Iniciar prueba
+              </button>
+            </Link>
+            <Link href="/tests/settings/introduccion-a-sql">
+              <button
+                type="button"
+                className="bg-blue-900 text-white py-2 px-4 rounded cursor-pointer hover:bg-blue-700"
+              >
+                Configuracion
+              </button>
+            </Link>
           </div>
         </div>
-        <div className="bg-blue-950 flex items-center justify-between p-5  rounded">
+        <div className="bg-blue-950 flex items-center justify-between p-5 rounded">
           <p>Sistemas de Gestion de SQL</p>
           <div className="flex gap-5">
-            <button
-              type="button"
-              className="bg-blue-900 text-white py-2 px-4 rounded cursor-pointer hover:bg-blue-700"
-            >
-              Iniciar prueba
-            </button>
-            <button
-              type="button"
-              className="bg-blue-900 text-white py-2 px-4 rounded cursor-pointer hover:bg-blue-700"
-            >
-              Configuracion
-            </button>
+            <Link href="/tests/perform/introduccion-a-sql">
+              <button
+                type="button"
+                className="bg-blue-900 text-white py-2 px-4 rounded cursor-pointer hover:bg-blue-700"
+              >
+                Iniciar prueba
+              </button>
+            </Link>
+            <Link href="/tests/settings/introduccion-a-sql">
+              <button
+                type="button"
+                className="bg-blue-900 text-white py-2 px-4 rounded cursor-pointer hover:bg-blue-700"
+              >
+                Configuracion
+              </button>
+            </Link>
           </div>
         </div>
-        <div className="bg-blue-950 flex items-center justify-between p-5  rounded">
-          <p>Consultas Básicas en SQL</p>
+        <div className="bg-blue-950 flex items-center justify-between p-5 rounded">
+          <p>Consultas Basicas en SQL</p>
           <div className="flex gap-5">
-            <button
-              type="button"
-              className="bg-blue-900 text-white py-2 px-4 rounded cursor-pointer hover:bg-blue-700"
-            >
-              Iniciar prueba
-            </button>
-            <button
-              type="button"
-              className="bg-blue-900 text-white py-2 px-4 rounded cursor-pointer hover:bg-blue-700"
-            >
-              Configuracion
-            </button>
+            <Link href="/tests/perform/introduccion-a-sql">
+              <button
+                type="button"
+                className="bg-blue-900 text-white py-2 px-4 rounded cursor-pointer hover:bg-blue-700"
+              >
+                Iniciar prueba
+              </button>
+            </Link>
+            <Link href="/tests/settings/introduccion-a-sql">
+              <button
+                type="button"
+                className="bg-blue-900 text-white py-2 px-4 rounded cursor-pointer hover:bg-blue-700"
+              >
+                Configuracion
+              </button>
+            </Link>
           </div>
         </div>
       </div>

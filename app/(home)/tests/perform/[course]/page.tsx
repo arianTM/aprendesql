@@ -55,12 +55,12 @@ export default function TestPerformPage() {
                 Anterior pregunta
               </button>
             </Link>
-            <Link href="/tests/perform/introduccion-a-sql">
+            <Link href="/tests/results/introduccion-a-sql">
               <button
                 type="button"
                 className="px-4 py-2 bg-blue-900 text-white rounded cursor-pointer hover:bg-blue-700"
               >
-                Siguiente pregunta
+                Finalizar
               </button>
             </Link>
           </div>

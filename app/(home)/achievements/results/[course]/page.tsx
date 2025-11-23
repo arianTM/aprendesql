@@ -42,7 +42,7 @@ export default function TestResultsPage() {
           </ul>
         </div>
       </div>
-      <Link href="/courses/introduccion-a-sql">
+      <Link href="/achievements/results/details/introduccion-a-sql">
         <button className="bg-blue-900 text-white py-2 px-4 rounded cursor-pointer hover:bg-blue-700">
           Ver el detalle
         </button>
